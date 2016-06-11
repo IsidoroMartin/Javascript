@@ -1,0 +1,37 @@
+body {
+	margin: 0px;
+	border: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+div {
+	float: left;
+	display: inline;
+	border: 1px solid black;
+}
+
+.naranja {
+	background-color: orange;
+}
+
+.verde {
+	background-color: green;
+}
+
+.rojo {
+	background-color: red;
+}
+
+.azul {
+	background-color: blue;
+}
+
+.amarillo {
+	background-color: yellow;
+}
+
+div:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}

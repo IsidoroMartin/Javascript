@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>EmployeesEval</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<!-- CargaJSON -->
+	<servlet>
+		<servlet-name>CargaJSON</servlet-name>
+		<servlet-class>servlets.CargaJSON</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CargaJSON</servlet-name>
+		<url-pattern>/CargaJSON</url-pattern>
+	</servlet-mapping>
+	<!-- CargaMenuSelect -->
+	<servlet>
+		<servlet-name>CargaMenuSelect</servlet-name>
+		<servlet-class>servlets.CargaMenuSelect</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CargaMenuSelect</servlet-name>
+		<url-pattern>/CargaMenuSelect</url-pattern>
+	</servlet-mapping>
+	<!-- CargarMenu -->
+	<servlet>
+		<servlet-name>CargarMenu</servlet-name>
+		<servlet-class>servlets.CargarMenu</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CargarMenu</servlet-name>
+		<url-pattern>/CargarMenu</url-pattern>
+	</servlet-mapping>
+	<!-- CargarTrabajadores -->
+	<servlet>
+		<servlet-name>CargarTrabajadores</servlet-name>
+		<servlet-class>servlets.CargarTrabajadores</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CargarTrabajadores</servlet-name>
+		<url-pattern>/CargarTrabajadores</url-pattern>
+	</servlet-mapping>
+</web-app>
