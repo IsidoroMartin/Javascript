@@ -1,2 +1,2 @@
 # Javascript
-Repositorio con todos los proyectos relacionados con la tecnología Javascript
+Repositorio con todos los proyectos relacionados con el lenguaje Javascript
